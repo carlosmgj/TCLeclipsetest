@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['toprint',['toprint',['../hello_world_8tcl.html#a4b048ad231522fdd295151e2bc4e0581',1,'helloWorld.tcl']]],
-  ['tutnum',['tutnum',['../hello_world_8tcl.html#a2d626010f8325ecec9db1e00228b8bba',1,'helloWorld.tcl']]],
   ['tutorial10',['tutorial10',['../pkg_index_8tcl.html#aa90d1671cd1611979f2f1ae7922c453e',1,'pkgIndex.tcl']]],
   ['tutorial11',['tutorial11',['../pkg_index_8tcl.html#aa433c2dfe965205aaa97041e39eacd3e',1,'pkgIndex.tcl']]],
   ['tutorial12',['tutorial12',['../pkg_index_8tcl.html#a664a853496f18ee16f2947566bc82a09',1,'pkgIndex.tcl']]],

@@ -20,18 +20,24 @@ set varset 290
 ## @brief Hello
 set varsetinc [expr $varset +1]; # Blabla blabla
 
-#tutorial3 "dato"
 
-#tutorial4 "tutorial4"
+set tutnum [list 5 6 7 8 9 10 11 12 13 14 15]
 
-#tutorial5
+## Read index of element in the array to be deleted
+set idx [lsearch $tutnum 10]
+set tutnum [lreplace $tutnum $idx $idx]
 
-#tutorial6
+g 2 0x150
 
-#tutorial7
 
-#tutorial8
 
-#tutorial9
+## Launch every tutorial listed 
+in the list [toupper tutnum]
+#foreach tut $tutnum {
+#     set cmd [subst tutorial$tut]
+#     puts "Launch function [string toupper $cmd]: #########################"
+#     $cmd ;# Functions tutorial5 , tutorial6, etc...
+#}
 
-#tutorial10
+
+
